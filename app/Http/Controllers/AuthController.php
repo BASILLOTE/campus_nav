@@ -117,6 +117,7 @@ class AuthController extends Controller
         }
     }
 
+    // Some comment
     public function getUserDetails(Request $request)
     {
         return response()->json([
